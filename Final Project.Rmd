@@ -1,0 +1,35 @@
+---
+title: "Final Project"
+author: "My Tran, Alex Park, Esmay Muniz"
+date: "2022-11"
+output: 
+  slidy_presentation: 
+    fig_height: 3
+    fig_width: 5
+    smaller: yes
+---
+
+```{r setup, include=FALSE,message=F}
+knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
+library(tidyverse)
+```
+
+# Introduction
+
+
+
+---
+
+# Install
+
+
+
+```{r}
+data <- read.csv("homicide.csv")
+glimpse(data)
+```
+
+---
+
+**Features**
+
